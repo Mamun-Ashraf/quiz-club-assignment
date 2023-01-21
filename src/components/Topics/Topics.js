@@ -9,7 +9,7 @@ const Topics = ({ t }) => {
             <img src={logo} alt={name} className='w-24 h-24 m-auto' />
             <p className='text-3xl'>{name}</p>
             <p>Questions: {total}</p>
-            <Link to='/quizzes'><button>Start practice</button></Link>
+            <Link to='/quizzes'><button className='bg-yellow-400 px-5 py-2 hover:bg-yellow-300 font-bold rounded-md'>Start practice</button></Link>
         </div>
     );
 };

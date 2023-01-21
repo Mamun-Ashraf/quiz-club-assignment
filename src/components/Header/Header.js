@@ -12,7 +12,7 @@ const Header = () => {
         { id: 3, name: 'Blog', path: '/blog' }
     ]
     return (
-        <div className='grid grid-cols-2 h-24 bg-slate-100 items-center'>
+        <div className='grid grid-cols-2 h-24 mb-12 bg-slate-100 items-center'>
             <h1 className='text-3xl text-purple-500 flex justify-center'>Quiz Club</h1>
             <nav>
                 <div onClick={() => setOpen(!open)} className='h-6 w-6 md:hidden float-right'>
